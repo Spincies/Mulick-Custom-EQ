@@ -34,18 +34,39 @@ See how these equalization settings transform the sound, from the initial measur
 ---
 
 ### Equalization Folders Explained
-Here's a breakdown of the repository's structure to help you find the right EQ for your device:
+This repository is organized to help you easily find the right equalization presets for your specific audio device and desired sound signature. The structure follows a clear hierarchy:
 
-* **`IEMs/`**: Contains parametric and graphic EQ presets specifically tuned for various In-Ear Monitors.
-    * `Parametric EQ/`: Text files (`.txt`) with precise band adjustments for parametric equalizers.
-    * `Graphic EQ/`: Files compatible with graphic EQ applications, often in a simpler value format.
-* **`TWS/`**: Contains parametric and graphic EQ presets specifically tuned for various True Wireless Stereo earbuds.
-    * `Parametric EQ/`
-    * `Graphic EQ/`
-* **`Headphones/`**: Contains parametric and graphic EQ presets specifically tuned for various Over-Ear Headphones.
-    * `Parametric EQ/`
-    * `Graphic EQ/`
-* **`My EQ Targets/`**: This folder houses my custom EQ target curves. These are not device-specific but rather sound signatures I aim for, which can be applied and adjusted to any device to achieve a particular tonal balance (e.g., more bass, brighter highs, a neutral reference).
+* **`IEMs/`**: Contains EQ presets specifically tuned for various **In-Ear Monitors**.
+* **`TWS/`**: Contains EQ presets specifically tuned for various **True Wireless Stereo** earbuds.
+* **`Headphones/`**: Contains EQ presets specifically tuned for various **Over-Ear Headphones**.
+* **`My EQ Targets/`**: This folder houses my custom EQ target curves. These are not device-specific but rather represent personal sound signatures I aim for, which can be applied and adjusted to any device to achieve a particular tonal balance.
+
+#### Navigating Inside Device Folders (`IEMs/`, `TWS/`, `Headphones/`)
+
+Once you select a device category (e.g., `IEMs/`), you'll find a nested structure designed for precision:
+
+1.  **`<Brand Name>/`**:
+    * This first level organizes presets by the **manufacturer or brand** of your audio device (e.g., `TruthEar/`).
+2.  **`<Unit Name>/`**:
+    * Inside the brand folder, you'll find folders for specific **models or units** from that brand (e.g., within `TruthEar/`, you might find `Hexa/`).
+3.  **`<Target/Reference Name>/`**:
+    * This is a crucial level. Inside the unit folder, you'll find sub-folders indicating the **target curve or reference tuning** that the EQ aims to achieve for that specific unit. Examples include:
+        * `IEM/` (e.g., targeting the sound of another specific IEM model)
+        * `My Reference/` (my preferred general reference tuning)
+        * `My Own Target/` (my unique, personal target curve for a particular sound)
+
+#### Contents Within Each `<Target/Reference Name>/` Folder
+
+Upon opening a `<Target/Reference Name>/` folder (e.g., `IEMs/TruthEar/Hexa/My Reference/`), you will typically find the following files:
+
+* **`<IEM> X <Reference>_parametric.txt`**:
+    * This text file contains the precise **parametric EQ parameters** (filter type, frequency, gain, Q-factor) that you can import into software like Equalizer APO and Peace GUI.
+* **`<IEM> X <Reference>_wavelet_graphicEQ.txt`**:
+    * This text file contains the **graphic EQ parameters** specifically formatted for import into the Wavelet Android application.
+* **`Comparison.png`**:
+    * An image showing the **"before" state** of the equalization. It displays the raw, un-EQ'd frequency response of your specific IEM (e.g., Hexa) compared directly against the chosen target/reference curve (e.g., "My Reference"). This helps you visualize the initial deviation.
+* **`Final.png`**:
+    * An image showing the **"after" state** of the equalization. It displays the frequency response of your IEM *after* applying the EQ parameters, demonstrating how closely it aligns with the target/reference curve. This helps you confirm the intended tuning has been achieved.
 
 ---
 
