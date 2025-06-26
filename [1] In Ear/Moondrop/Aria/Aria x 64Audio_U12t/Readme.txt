@@ -23,14 +23,6 @@ https://www.audiosciencereview.com/forum/index.php?threads/autoeq-magic.14327/
 	you might need to change the filter to correct one
 -Enjoy :))
  
-[How to Import .Peace file into Peace]
--Copy the Aria-64Audio_U12t-Parametric.peace
--go to C: > Program Files > Equalizer APO > Config
--Paste it there
--Reopen Peace
--Select Aria-64Audio_U12t-Parametric to peace
--Enjoy :))
-
 [How to Install/Use Wavelet Android]
 -Install Wavelet: headphone specific EQ in Google Play
 -Open Wavelet
