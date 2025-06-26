@@ -1,0 +1,89 @@
+# Mulick Custom EQ
+Custom Equalizations for In-Ear Monitors (IEMs), True Wireless Stereo (TWS), and Headphones – Experience Audio Your Way.
+
+---
+
+### About
+This repository provides a curated collection of **custom equalization settings** for various audio devices, including **In-Ear Monitors (IEMs)**, **True Wireless Stereo (TWS)** earbuds, and **Over-Ear Headphones**. My goal is to help you enhance your listening experience, correct sonic imperfections, or simply tailor sound to your specific preferences. You'll also find my personal EQ target curves here for those who want to explore their sound philosophies.
+
+---
+
+### Features
+* **Comprehensive EQ Presets:** A growing collection of both parametric and graphic EQ presets.
+* **Wide Device Compatibility:** Presets tuned for a variety of popular IEMs, TWS, and Headphones.
+* **Custom EQ Targets:** Includes my personal EQ target curves, offering unique sound signatures to experiment with.
+* **Easy to Use:** Designed for straightforward import into popular EQ applications on both desktop and mobile.
+
+---
+
+### Visualizing the EQ Process
+See how these equalization settings transform the sound, from the initial measured response to the final, targeted curve, and how the parameters look in the EQ software.
+
+**1. Pre-EQ Frequency Response**
+*The measured frequency response of an IEM before any equalization, compared to the target curve it aims to achieve.*
+![Pre-EQ Frequency Response](./images/PreEQ.png)
+
+**2. Imported EQ Parameters in Peace GUI**
+*A screenshot showing the imported EQ parameters in the Peace Equalizer application, along with a sample waveform illustrating the applied changes.*
+![Imported EQ Parameters and Waveform](./images/ImportedEQ_and_waveform.png)
+
+**3. Post-EQ Frequency Response**
+*The frequency response of the IEM after applying the custom EQ, demonstrating its alignment with the reference target curve.*
+![Post-EQ Frequency Response](./images/PostEQ.png)
+
+---
+
+### Equalization Folders Explained
+Here's a breakdown of the repository's structure to help you find the right EQ for your device:
+
+* **`IEMs/`**: Contains parametric and graphic EQ presets specifically tuned for various In-Ear Monitors.
+    * `Parametric EQ/`: Text files (`.txt`) with precise band adjustments for parametric equalizers.
+    * `Graphic EQ/`: Files compatible with graphic EQ applications, often in a simpler value format.
+* **`TWS/`**: Contains parametric and graphic EQ presets specifically tuned for various True Wireless Stereo earbuds.
+    * `Parametric EQ/`
+    * `Graphic EQ/`
+* **`Headphones/`**: Contains parametric and graphic EQ presets specifically tuned for various Over-Ear Headphones.
+    * `Parametric EQ/`
+    * `Graphic EQ/`
+* **`My EQ Targets/`**: This folder houses my custom EQ target curves. These are not device-specific but rather sound signatures I aim for, which can be applied and adjusted to any device to achieve a particular tonal balance (e.g., more bass, brighter highs, a neutral reference).
+
+---
+
+### Getting Started: Comprehensive Setup & Usage Guide
+To get started with installing and using these EQ presets on your Windows PC (Equalizer APO + Peace GUI) or Android device (Wavelet), along with additional useful tips, please refer to our comprehensive guide:
+
+* **Mulick Custom EQ: Comprehensive Setup & Usage Guide (Equalizer APO, Peace, Wavelet, & Advanced Tips):**
+    [https://docs.google.com/document/d/1cmlCGibwocOL03Ga_N4iiBzhU7DekrtyrgsZm1OgUhk/edit?tab=t.0](https://docs.google.com/document/d/1cmlCGibwocOL03Ga_N4iiBzhU7DekrtyrgsZm1OgUhk/edit?usp=sharing)
+
+This single document covers:
+* Detailed installation and configuration of **Equalizer APO and Peace GUI**.
+* Step-by-step instructions for installing and using **Wavelet on Android**.
+* **Additional tips and tricks** to optimize your equalization experience.
+
+---
+
+#### General Instructions
+Once you have your chosen EQ software installed and configured via the guide:
+1.  Navigate to the relevant folder in this repository (e.g., `IEMs/Parametric EQ/` or `TWS/Graphic EQ/`).
+2.  Locate the `.txt` or other preset file corresponding to your device and desired sound signature.
+3.  Follow the specific import instructions within your EQ software (as detailed in the comprehensive guide) to load the equalization values.
+
+---
+
+### Important Considerations and Disclaimer
+
+Please be aware that while these equalization presets are meticulously crafted to align with specific target curves, the **realistic reproduction of sound cannot be perfectly guaranteed** due to inherent variations in:
+* **Driver Setups:** Differences in driver materials, size, and configuration.
+* **Hardware Quality:** Variations in manufacturing tolerances and component quality.
+* **Acoustic Properties:** The unique acoustic design of each individual earphone or headphone.
+
+**Our Aim:** The primary goal of these tunings is to help you **grasp the intended sound signature** and achieve a desired tonal balance. This can be particularly useful to avoid "purchase mistakes" if you discover you don't like a particular tuning in the first place, or to simply tailor your existing gear to your preference. While a perfect match to the target curve might not always be audibly perceivable, the *intended tuning philosophy* will be conveyed.
+
+---
+
+### Contact
+If you have any questions, need assistance, or just want to discuss audio, feel free to:
+* Open an [issue on this GitHub repository](https://github.com/Spincies/Mulick-Custom-EQ/issues).
+* Reach out to me at [mulickz16@gmail.com].
+
+---
