@@ -85,7 +85,7 @@ Upon opening a `<Target/Reference Name>/` folder (e.g., `IEMs/TruthEar/Hexa/My R
 To get started with installing and using these EQ presets on your Windows PC (Equalizer APO + Peace GUI) or Android device (Wavelet), along with additional useful tips, please refer to our comprehensive guide:
 
 * **Mulick Custom EQ: Comprehensive Setup & Usage Guide (Equalizer APO, Peace, Wavelet, & Advanced Tips):**
-    [[https://docs.google.com/document/d/1cmlCGibwocOL03Ga_N4iiBzhU7DekrtyrgsZm1OgUhk/edit?tab=t.0](https://docs.google.com/document/d/1cmlCGibwocOL03Ga_N4iiBzhU7DekrtyrgsZm1OgUhk/edit?usp=sharing)
+    [[https://docs.google.com/document/d/1cmlCGibwocOL03Ga_N4iiBzhU7DekrtyrgsZm1OgUhk/edit?tab=t.0]](https://docs.google.com/document/d/1cmlCGibwocOL03Ga_N4iiBzhU7DekrtyrgsZm1OgUhk/edit?usp=sharing)
 
 This single document covers:
 * Detailed installation and configuration of **Equalizer APO and Peace GUI**.
