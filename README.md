@@ -113,6 +113,7 @@ If you have any questions, need assistance, or just want to discuss audio, feel 
 This project and my passion for audio have been significantly fueled by the contributions and insights of various individuals and the vibrant audio community. A special thank you to:
 
 * **jaakkopasanen** (for AutoEq)
+* **Peter Verbeek** (for PEACE)
 * **crinacle**
 * **timmy**
 * **jayaudio**
