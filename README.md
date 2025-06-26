@@ -108,3 +108,17 @@ If you have any questions, need assistance, or just want to discuss audio, feel 
 * Reach out to me at [mulickz16@gmail.com].
 
 ---
+
+### Acknowledgements & Inspiration
+This project and my passion for audio have been significantly fueled by the contributions and insights of various individuals and the vibrant audio community. A special thank you to:
+
+* **jaakkopasanen** (for AutoEq)
+* **crinacle**
+* **timmy**
+* **jayaudio**
+* My **friends** who share this hobby.
+* And to the **broader audio community and passionate reviewers** who continuously share knowledge, measurements, and inspire further exploration in the world of sound.
+
+Your work and dedication have been invaluable in developing this project and deepening my enjoyment of this hobby.
+
+
