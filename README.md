@@ -35,7 +35,7 @@ See how these equalization settings transform the sound, from the initial measur
 
 ### Important Considerations and Disclaimer
 
-Please be aware that while these equalization presets are meticulously crafted to align with specific target curves, the **realistic reproduction of sound cannot be perfectly guaranteed** due to inherent variations in:
+Please be aware that while these equalization presets are precisely crafted to align with specific target curves, the **realistic reproduction of sound cannot be perfectly guaranteed** due to inherent variations in:
 * **Driver Setups:** Differences in driver materials, size, and configuration.
 * **Hardware Quality:** Variations in manufacturing tolerances and component quality.
 * **Acoustic Properties:** The unique acoustic design of each individual earphone or headphone.
