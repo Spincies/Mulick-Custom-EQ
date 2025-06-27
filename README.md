@@ -114,9 +114,9 @@ This project and my passion for audio have been significantly fueled by the cont
 
 * **jaakkopasanen** (for AutoEq)
 * **Peter Verbeek** (for PEACE)
+* **oratory1990**
 * **crinacle**
 * **timmy**
-* **jayaudio**
 * My **friends** who share this hobby.
 * And to the **broader audio community and passionate reviewers** who continuously share knowledge, measurements, and inspire further exploration in the world of sound.
 
